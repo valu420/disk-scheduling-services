@@ -1,0 +1,7 @@
+{
+    "algorithm": 3,
+    "total_cylinders": 230,
+    "number_of_requests": 9,
+    "initial_arm_position": 90,
+    "requests": [200, 40, 110, 75, 140, 180, 20, 150, 60]
+  }
