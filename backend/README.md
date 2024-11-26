@@ -57,13 +57,13 @@ python src/service.py
 
 ```bash
 # Replace japeto with your preferred nickname
-docker build -t japeto/simbackend .
+docker build -t valu/simbackend .
 ```
 
 2. Run container with:
 
 ```bash
-docker run --name simbackend -d -p 0.0.0.0:8000:8000 japeto/simbackend
+docker run --name simbackend -d -p 0.0.0.0:8001:8000 valu/simbackend
 ```
 
 3. Access the backend in your browser:
@@ -79,7 +79,7 @@ http://localhost:8000
 1. From the project root (where docker-compose.yml is located), execute
 
 ```bash
-docker-compose up --build backend_service
+docker-compose up --build backend
 ```
 
 2. Access the Services:

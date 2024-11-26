@@ -22,13 +22,13 @@ Open the file in your browser:
 
 ```bash
 # Replace japeto with your preferred nickname
-docker build -t japeto/simfrontend .
+docker build -t valu/simfrontend .
 ```
 
 2. Run container with:
 
 ```bash
-docker run --name simfrontend -d -p 0.0.0.0:3000:80 japeto/simfrontend
+docker run --name simfrontend -d -p 0.0.0.0:3000:80 valu/simfrontend
 ```
 
 3. Access the frontend in your browser:
@@ -46,7 +46,7 @@ This will load the frontend served by the Docker container.
 1. From the project root (where docker-compose.yml is located), execute
 
 ```bash
-docker-compose up --build frontend_service
+docker-compose up --build frontend
 ```
 
 2. Access the Services:
